@@ -28,7 +28,7 @@ n2=int(input("Enter 2nd no.: "));
 print();
 
 try:
-    if n1<0 or n2<0:
+    if n1<=0 or n2<=0:
         raise LessThan0Error("Entered number is smaller than 0.")
     else:
         ma=m.Maths();
